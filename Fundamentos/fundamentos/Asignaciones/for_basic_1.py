@@ -50,3 +50,5 @@ for x in range(input_lowNum, input_highNum+1, 1):
     if x % input_mult == 0:
         print(x)
 
+if not x:
+    print("No hay numeros multiplos")
